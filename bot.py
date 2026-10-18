@@ -24,7 +24,7 @@ from bs4 import BeautifulSoup
 # ---------------------------------------------------------------- config
 WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
 AVATAR_URL = os.environ.get("AVATAR_URL", "").strip() or None
-BOT_NAME = "Diabo News"
+BOT_NAME = "Demon Vava News"
 COLOR = 0xFF4655  # vermelho do Valorant
 
 STATE_FILE = Path(__file__).with_name("sent.json")
